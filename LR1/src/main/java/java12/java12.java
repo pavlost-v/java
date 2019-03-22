@@ -8,10 +8,10 @@ package java12;
 
 public class java12 {
     public static void main(String[] args) {
-        String str = com.sun.org.apache.bcel.internal.classfile.Utility.getSignature("abc312");
-        System.out.println(str);
-        str = my_getSignature("abc312");
-        System.out.println(str);
+//        String str = com.sun.org.apache.bcel.internal.classfile.Utility.getSignature("abc312");
+//        System.out.println(str);
+//        str = my_getSignature("abc312");
+//        System.out.println(str);
 
     }
 
