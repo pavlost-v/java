@@ -2,6 +2,7 @@ package task9;
 
 public class Car {
     private double x;
+
     private double bak;
     private final double maxBak = 100;
     private final int lpkm = 5;
@@ -29,9 +30,10 @@ public class Car {
 
     public void move(double distance) {
         double canMove = lpkm * bak;
+
         if (distance < canMove) {
             x += distance;
-            bak -= distance / lpkm;
+            bak -= Math.abs(distance) / lpkm;
         } else {
             x += canMove;
             bak = 0;

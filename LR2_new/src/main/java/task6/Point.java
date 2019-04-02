@@ -22,9 +22,9 @@ public class Point {
         return y;
     }
 
-    public void translate (double _x, double _y) {
-        this.x += _x;
-        this.y += _y;
+    public void translate (double x, double y) {
+        this.x += x;
+        this.y += y;
     }
     public void scale (double t) {
         this.x *= t;

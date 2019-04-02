@@ -9,5 +9,8 @@
         <module name="LR2_new" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="LR2_new" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
